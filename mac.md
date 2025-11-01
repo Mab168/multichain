@@ -10,7 +10,7 @@
 
         xcode-select --install
         
--   Select XCode locatioh:
+-   Select XCode location:
 
         sudo xcode-select -s <path/to/Xcode.app>
 
@@ -25,7 +25,7 @@ Install git from git-scm, then
 ## Prepare to download or build V8
 
     cd multichain
-    set MULTICHAIN_HOME=$(pwd)
+    export MULTICHAIN_HOME=$(pwd)
     mkdir v8build
     cd v8build
 
